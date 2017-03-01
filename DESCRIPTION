@@ -7,3 +7,5 @@ Depends: R (>= 3.3.2)
 License: What license is it under?
 Encoding: UTF-8
 LazyData: true
+URL: https://github.com/aranryan/arfredpack
+BugReports: https://github.com/aranryan/arfredpack/issues
