@@ -2,10 +2,15 @@ Package: arfredpack
 Title: Contains Functions Related to Fred Project
 Version: 0.0.0.9000
 Authors@R: person("Aran", "Ryan", email = "aran.ryan@gmail.com", role = c("aut", "cre"))
-Description: There were some functions that I wanted to have available in the Fred project but didn't want to put in my broader package.
-Depends: R (>= 3.3.2)
-License: What license is it under?
+Description: There were some functions that I wanted to have available in the
+    Fred project but didn't want to put in my broader package.
+Depends:
+    R (>= 3.3.2)
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 URL: https://github.com/aranryan/arfredpack
 BugReports: https://github.com/aranryan/arfredpack/issues
+RoxygenNote: 5.0.1
+Imports: dplyr,
+    arlodr
